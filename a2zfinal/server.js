@@ -18,7 +18,7 @@ app.get('/homepage', function(req, res) {
     //use youtube search npm
     let opts = {
       maxResults: 50,
-      key: 'AIzaSyCVWqeg_7UIpJzMpEuua2powD647pL_4s8'
+      key: ''
     };
 
     //search youtube videos by keywords, to get an array of video id and a string of video title
