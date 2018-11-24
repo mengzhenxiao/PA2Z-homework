@@ -1,0 +1,149 @@
+/* responsive  */
+.container {
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+      }
+
+.c1, .c2, .c4 {
+  padding: 10px 20px;
+  width: 100%;
+  font-size: 0.6em;
+}
+
+.c3 {
+  font-size: 1em;
+}
+
+@media (min-width: 500px) {
+  .c1 {
+    padding: 20px 40px;
+    font-size: 0.8em;
+  }
+}
+
+@media (min-width: 800px) {
+  .c1 {
+    padding: 40px 60px;
+    font-size: 1em;
+  }
+}
+
+
+@media (min-width: 600px) {
+
+  .c2 {
+    width: 100%;
+    -webkit-order: 1;
+    order: 1;
+    padding: 0px 40px;
+    padding-bottom: 40px;
+    font-size: 0.8em;
+  }
+
+  .c3 {
+    width: 100%;
+    -webkit-order: 2;
+    order: 2;
+    padding: 0px 40px;
+    padding-bottom: 40px;
+    font-size: 1.2em;
+  }
+
+  .c4 {
+    width: 100%;
+    -webkit-order: 3;
+    order: 3;
+    padding: 0px 40px;
+    padding-bottom: 40px;
+    font-size: 0.8em;
+  }
+}
+
+
+@media (min-width: 800px) {
+  .c2 {
+    width: 50%;
+    padding: 0px 60px;
+    padding-bottom: 40px;
+    font-size: 1em;
+  }
+
+  .c3 {
+    width: 50%;
+    padding: 0px 60px;
+    padding-bottom: 40px;
+    font-size: 1.4em;
+  }
+
+  .c4 {
+    width: 100%;
+    padding: 0px 60px;
+    padding-bottom: 40px;
+    font-size: 1em;
+  }
+}
+
+
+/* layouts-common */
+body {
+  margin: 0;
+}
+
+.container {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* .container div {
+  box-sizing: border-box;
+  min-height: 150px;
+  min-width: 150px;
+} */
+
+
+
+/* elements */
+#originalPoem {
+    width: 100%;
+    padding: 30px;
+    min-height: 250px;
+    margin-left: 5px;
+    background-color: #fffbe6;
+}
+
+#output {
+  font-family: 'Great Vibes', cursive;
+    width: 100%;
+    padding: 30px;
+    min-height: 250px;
+    margin-left: 5px;
+    background-color: #ddefcc;
+}
+
+.notes{
+  font: 0.5rem "Lucida Grande", Helvetica, Arial, sans-serif;
+  color: #777777;
+}
+
+#drop_zone {
+  margin-left: 40px;
+    padding: 20px;
+    border-style: dotted;
+    width: 200px;
+    height: 60px;
+    text-align: center;
+}
+
+
+
+footer {
+  padding-bottom: 2%;
+  -webkit-padding-before: 3rem;
+  height: 2rem;
+  font: 0.5rem "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #FF4179;
+}
