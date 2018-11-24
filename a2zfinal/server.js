@@ -1,4 +1,3 @@
-// youtube api:AIzaSyCVWqeg_7UIpJzMpEuua2powD647pL_4s8
 // let titlesString;
 // let keywords;
 let videoInfos = {};
